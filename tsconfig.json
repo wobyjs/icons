@@ -1,0 +1,39 @@
+{
+  "compilerOptions": {
+    "outDir": "./build",
+    "target": "esnext",
+    "module": "esnext",
+    "jsx": "react-jsx",
+    "jsxImportSource": "woby",
+    "declaration": true,
+    "strict": true,
+    "moduleResolution": "node",
+    "esModuleInterop": true,
+    "skipLibCheck": true,
+    "forceConsistentCasingInFileNames": true,
+    "lib": [
+      "dom",
+      "dom.iterable",
+      "esnext"
+    ],
+    "baseUrl": ".",
+    "paths": {
+      "woby": [
+        "node_modules/woby"
+      ],
+      "woby/jsx-runtime": [
+        "node_modules/woby/dist/types/jsx/runtime"
+      ],
+      "woby/jsx-dev-runtime": [
+        "node_modules/woby/dist/types/jsx/runtime"
+      ]
+    }
+  },
+  "include": [
+    "src"
+  ],
+  "exclude": [
+    "node_modules",
+    "build"
+  ]
+}
