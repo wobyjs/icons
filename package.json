@@ -5,6 +5,9 @@
   "main": "build/index.js",
   "typings": "build/index.d.ts",
   "scripts": {
+    "git": "git add . && git commit -m \"Bump version\" && git push",
+    "bump": "pnpm version patch",
+    "npmjs": "pnpm publish",
     "test": "echo \"Error: no test specified\" && exit 1",
     "build": "tsc"
   },

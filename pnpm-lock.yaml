@@ -10,7 +10,7 @@ importers:
     dependencies:
       woby:
         specifier: ^0.58.14
-        version: 0.58.14
+        version: 0.58.18
     devDependencies:
       eslint:
         specifier: ^6.8.0
@@ -286,8 +286,8 @@ packages:
   confusing-browser-globals@1.0.11:
     resolution: {integrity: sha512-JsPKdmh8ZkmnHxDk55FZ1TqVLvEQTvoByJZRN9jzI0UjxK/QgAmsphz7PGtqgPieQZ/CQcHWXCR7ATDNhGe+YA==}
 
-  core-js@3.44.0:
-    resolution: {integrity: sha512-aFCtd4l6GvAXwVEh3XbbVqJGHDJt0OZRa+5ePGx3LLwi12WfexqQxcsohb2wgsa/92xtl19Hd66G/L+TaAxDMw==}
+  core-js@3.45.1:
+    resolution: {integrity: sha512-L4NPsJlCfZsPeXukyzHFlg/i7IIVwHSItR0wg0FLNqYClJ4MQYTYLbC7EkjKYRLZF2iof2MUgN0EGy7MdQFChg==}
 
   cross-spawn@6.0.6:
     resolution: {integrity: sha512-VqCUuhcd1iB+dsv8gxPttb5iZh/D0iubSP21g36KXdEuf6I5JiioesUVjpCdHV9MZRUfVFlvwtIUyPfxo5trtw==}
@@ -1139,8 +1139,8 @@ packages:
     resolution: {integrity: sha512-Qu+VC3EwYLldKa1fCxuuvULvSJOKEgk9pi8dZeCVK7TqBfUNTH4sFkk4joj8afVSfAYgJoSOetjx9QWOJ5mYoQ==}
     engines: {node: '>=6'}
 
-  soby@15.1.7:
-    resolution: {integrity: sha512-gu70ya4KgwT1P7pmkkVz4kJxYzy3SUqsHfmYInA8WRfyY6KJuMB5wfQNYrDE+G76jBiYaSJR5+TRupnfb0hq3Q==}
+  soby@15.1.8:
+    resolution: {integrity: sha512-dmHqxXos1+yJksqHAMUY5u4cK/hsutoJ1zpj79zR8dj2Klh/LgI1jJzZ4QZ5p4f7jR5R89l6TizhLc9esRr8lA==}
 
   sprintf-js@1.0.3:
     resolution: {integrity: sha512-D9cPgkvLlV3t3IzL0D0YLvGA9Ahk4PcvVwUbN0dSGr1aP0Nrt4AEnTUbuGvquEC0mA64Gqt1fzirlRs5ibXx8g==}
@@ -1332,8 +1332,8 @@ packages:
     resolution: {integrity: sha512-HxJdYWq1MTIQbJ3nw0cqssHoTNU267KlrDuGZ1WYlxDStUtKUhOaJmh112/TZmHxxUfuJqPXSOm7tDyas0OSIQ==}
     hasBin: true
 
-  woby@0.58.14:
-    resolution: {integrity: sha512-l9rcAs4rmCqXtB7oh72yN4hi++fCVet68fjOC4zAbAI6ATgLU+YX4uA5FkIVKEPZouLGdBf0A8BHlZwgmGDE7w==}
+  woby@0.58.18:
+    resolution: {integrity: sha512-qJFKanbyD2O0Ss6WbHnkJGJA5/jhWF4ghCv8g0Uazls9lJMhhf9ILbWjv0Sst77pNQqsGouOYkhlfA9RnMr4vw==}
 
   word-wrap@1.2.5:
     resolution: {integrity: sha512-BN22B5eaMMI9UMtjrGd5g5eCYPpCPDUy0FJXbYsaT5zYxjFOckS53SQDE3pWkVoWpHXVb3BrYcEN4Twa55B5cA==}
@@ -1603,7 +1603,7 @@ snapshots:
 
   confusing-browser-globals@1.0.11: {}
 
-  core-js@3.44.0: {}
+  core-js@3.45.1: {}
 
   cross-spawn@6.0.6:
     dependencies:
@@ -2040,7 +2040,7 @@ snapshots:
   feather-icons@4.29.2:
     dependencies:
       classnames: 2.5.1
-      core-js: 3.44.0
+      core-js: 3.45.1
 
   figures@2.0.0:
     dependencies:
@@ -2516,7 +2516,7 @@ snapshots:
     dependencies:
       '@typescript-eslint/parser': 1.13.0(eslint@5.16.0)
       common-tags: 1.8.2
-      core-js: 3.44.0
+      core-js: 3.45.1
       dlv: 1.1.3
       eslint: 5.16.0
       indent-string: 4.0.0
@@ -2698,7 +2698,7 @@ snapshots:
       astral-regex: 1.0.0
       is-fullwidth-code-point: 2.0.0
 
-  soby@15.1.7: {}
+  soby@15.1.8: {}
 
   sprintf-js@1.0.3: {}
 
@@ -2957,10 +2957,10 @@ snapshots:
     dependencies:
       isexe: 2.0.0
 
-  woby@0.58.14:
+  woby@0.58.18:
     dependencies:
       htm: 3.1.1
-      soby: 15.1.7
+      soby: 15.1.8
       vhtml: 2.2.0
       via.js: 1.0.3
 
