@@ -1,6 +1,6 @@
 {
   "name": "woby-feather",
-  "version": "2.0.10",
+  "version": "2.0.11",
   "description": "React component for Feather icons",
   "main": "build/index.js",
   "typings": "build/index.d.ts",
