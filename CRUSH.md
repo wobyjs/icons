@@ -11,7 +11,7 @@
 - **Imports**: 
   - Use ES6 import/export syntax
   - Import React if using JSX
-  - Import icons as named imports from 'react-feather'
+  - Import icons as named imports from '@woby/icons'
 - **Formatting**: 
   - Prettier with single quotes, trailing commas, bracket spacing
   - 2 space indentation
@@ -28,6 +28,6 @@
   - No specific runtime error handling patterns defined
 
 ## File Structure
-- `src/icons/`: Individual feather icon components
+- `src/icons/`: Individual @woby/icons icon components
 - `src/radix/`: Radix UI icon components
 - `src/index.tsx`: Main export file

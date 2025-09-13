@@ -1,12 +1,12 @@
 # Woby Feather Icon Gallery
 
-A beautiful gallery to display all [Woby Feather Icons](https://github.com/feathericons/feather) with search functionality.
+A beautiful gallery to display all [Woby Feather Icons](https://github.com/wobyjs/icons) with search functionality.
 
 ## Features
 
 - Display all Feather icons in a responsive grid layout
 - Real-time search functionality to filter icons by name
-- Built with [Woby](https://github.com/wongchichong/woby), [Vite](https://vitejs.dev/), and [Tailwind CSS](https://tailwindcss.com/)
+- Built with [Woby](https://github.com/wobyjs/woby), [Vite](https://vitejs.dev/), and [Tailwind CSS](https://tailwindcss.com/)
 - Responsive design that works on all device sizes
 
 ## Getting Started
@@ -20,12 +20,12 @@ A beautiful gallery to display all [Woby Feather Icons](https://github.com/feath
 
 1. Clone the repository:
    ```bash
-   git clone https://github.com/feathericons/feather.git
+   git clone https://github.com/wobyjs/icons.git
    ```
 
 2. Navigate to the icon gallery directory:
    ```bash
-   cd woby-feather/icon-gallery
+   cd @woby/icons/icon-gallery
    ```
 
 3. Install dependencies:
@@ -69,7 +69,7 @@ pnpm preview
 
 ## Technologies Used
 
-- [Woby](https://github.com/wongchichong/woby) - A high-performance framework with fine-grained observable-based reactivity
+- [Woby](https://github.com/wobyjs/woby) - A high-performance framework with fine-grained observable-based reactivity
 - [Vite](https://vitejs.dev/) - Next generation frontend tooling
 - [Tailwind CSS](https://tailwindcss.com/) - A utility-first CSS framework
 - [TypeScript](https://www.typescriptlang.org/) - Typed JavaScript

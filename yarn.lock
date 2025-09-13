@@ -2429,9 +2429,9 @@
   "resolved" "https://registry.npmjs.org/fast-levenshtein/-/fast-levenshtein-2.0.6.tgz"
   "version" "2.0.6"
 
-"feather-icons@^4.29.0":
+"@woby/icons@^4.29.0":
   "integrity" "sha512-Y7VqN9FYb8KdaSF0qD1081HCkm0v4Eq/fpfQYQnubpqi0hXx14k+gF9iqtRys1SIcTEi97xDi/fmsPFZ8xo0GQ=="
-  "resolved" "https://registry.npmjs.org/feather-icons/-/feather-icons-4.29.0.tgz"
+  "resolved" "https://registry.npmjs.org/@woby/icons/-/@woby/icons-4.29.0.tgz"
   "version" "4.29.0"
   dependencies:
     "classnames" "^2.2.5"
